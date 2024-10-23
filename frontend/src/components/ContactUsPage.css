@@ -1,0 +1,40 @@
+body.no-scroll {
+    overflow: hidden;
+}
+
+.contact-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligns items to start */
+    align-items: center;
+    padding-top: 30vh; /* Adds padding at the top */
+}
+
+.logo {
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    filter: brightness(0) invert(1);
+}
+
+.contactText {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.emailText {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

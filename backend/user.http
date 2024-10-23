@@ -1,0 +1,63 @@
+### check home page
+GET http://localhost:8080/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NWIwMGE2Y2NhYzY1M2M5YTVjNDEyNyIsImlhdCI6MTcxNzI0MjM4NSwiZXhwIjoxNzE3NTAxNTg1fQ.zrfrVJwELwk2kQEi1O53SWet5OMOhvqg07jfHPNF_UU
+Content-Type: application/json
+
+
+### SIGNUP user with email, password and profession
+POST http://localhost:8080/users/signup
+Content-Type: application/json
+
+{
+  "email": "martin3@test.de",
+  "password": "123456789",
+  "profession": "student"
+}
+
+
+### LOGIN user with email and password
+
+POST http://localhost:8080/users/login
+Content-Type: application/json
+
+{
+  "email": "martin3@test.de",
+  "password": "123456789"
+}
+
+
+### LOGOUT user
+GET http://localhost:8080/users/logout
+
+
+### get ALL USERS in db
+
+GET http://localhost:8080/users/getAll
+
+
+### get certain USER BY ID
+
+GET http://localhost:8080/users/byID/665997cf2005a38408fadec5
+
+### DELETE certain user by id
+
+DELETE http://localhost:8080/users/delete/665b32f6531db8bd4d6620ce
+
+
+### EDIT user
+POST http://localhost:8080/users/addUserInfo/
+Content-type: application/json
+
+{"dateOfBirth":"2000-02-02",
+"email":"martin3@test.de",
+"firstName":"Martin",
+"jobPositions": [],
+"lastName":"Schmauch13",
+"linkedinURL":"abc.de",
+"selfDescription":"about me alot blabla",
+"profession":"student",
+"profilePicture": {"data": "/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQ…25ic9/MHjS/bKFJrjVzCeaNmVM+G+P+uvtfadV9xf/Gf/2Q==", "imageType": "image/jpeg"},
+"selfDescription": "about me alot blabla",
+"studyPrograms": [],
+"_id": "6683d758c6aaa528f39d6e02"
+}

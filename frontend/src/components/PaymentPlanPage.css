@@ -1,0 +1,116 @@
+.payment-plan-container {
+    padding-top: 1.5rem;
+}
+
+.plan-column {
+    display: flex;
+    justify-content: center;
+    padding-left: 1.3rem; /* Adjust the padding as needed */
+    padding-right: 1.3rem;
+}
+
+.plan-card {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem 1.5rem; /* 1rem for top and bottom, 2rem for left and right */
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+}
+
+
+.plan-card:hover {
+    transform: translateY(-5px);
+  }
+
+.plan-card h2 {
+    display: flex;
+    align-items: center; /* Vertically centers the content */
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+
+.plan-card h4 {
+    display: flex;
+    align-items: center; /* Vertically centers the content */
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.plan-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.plan-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.plan-card h3 span {
+    font-size: 1rem;
+    color: #666;
+}
+
+.plan-button {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.plan-card ul {
+    list-style: disc; /* Change to display dots */
+    padding-left: 1.5rem; /* Add padding to align to the left */
+    text-align: left; /* Ensure text is aligned to the left */
+}
+
+.plan-card ul li {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.status-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+.dot.active {
+    background-color: green;
+}
+
+.dot.inactive {
+    background-color: red;
+}
+
+.dot.invisible {
+    visibility: hidden;
+}
+
+.note {
+    color: #a9a9a9;
+    font-size: 11px;
+}
+
+.divider {
+    width: 100%;
+    border: 1px solid #a9a9a9; /* Ensure it has a visible border */
+    margin: 1rem 0; /* Adjust margins as needed */
+}

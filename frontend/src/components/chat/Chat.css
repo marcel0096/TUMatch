@@ -1,0 +1,43 @@
+.card.chat-card {
+    /* Custom styles to overwrite Bootstrap's .card class */
+    background-color: #f0f0f0;; /* Example background color */
+    border: 1px solid #ddd; /* Example border */
+    border-radius: 0.25rem; /* Example border radius */
+    /* Add more custom styles as needed */
+    margin-bottom: 15px;
+}
+
+.card.chat-card-selected{
+    background-color: #f0f0f0;
+    margin-bottom: 15px;
+    border-color: #007bff;
+    border-width: 2px;
+}
+
+.message-sender{
+    background-color: rgba(0, 108, 254, 0.9);
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: right;
+
+}
+
+.message-receiver{
+    color: darkslategray;
+    background-color: lightgray;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.footer-sender{
+    font-size: 0.7rem;
+    color: white;
+    margin-top: 5px;
+}
+
+.message-text{
+    font-size: 1.2rem;
+    font-style: bold;
+}

@@ -1,0 +1,84 @@
+body {
+  height: 100%;
+  overflow: auto;
+}
+
+.edit-container {
+    width: 768px;
+}
+
+.edit-container h1 {
+  font-size: 3.0rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+@keyframes slide-in {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.custom-heading {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.custom-heading::before,
+.custom-heading::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.custom-heading::before {
+  margin-right: 20px;
+}
+
+.custom-heading::after {
+  margin-left: 20px;
+}
+
+.custom-form-section {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #fbfbfb;
+  position: relative;
+  text-align: center;
+}
+
+.add-button {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.required {
+  color: rgba(255, 0, 0, 0.663);
+}
+
+.char-count {
+  text-align: right;
+  display: block;
+  color: lightgrey;
+  margin-top: 3px;
+}
+
+.char-count-over-limit {
+  color: red;
+}
+
+.ql-editor {
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--bs-body-color)
+}

@@ -1,0 +1,66 @@
+/* LoginScreen.css */
+.login-container {
+    background-color: #f9f9f9;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+
+  }
+  
+  .login-box {
+    background: white;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .login-logo {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+  
+  .bold-label {
+    font-weight: 600;
+  }
+
+  .required-asterisk::after {
+    content: "*";
+    color: red;
+    margin-left: 4px;
+  }
+  
+  .forgot-password-link {
+    color: #007bff;
+    text-decoration: none;
+    white-space: nowrap; /* Prevents the text from wrapping onto the next line */
+  }
+  
+  .footer-link {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bar {
+    background-color: #e7e4e4;
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0px;
+  }
+  
+  

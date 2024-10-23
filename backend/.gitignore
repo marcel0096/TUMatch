@@ -1,0 +1,9 @@
+# dependencies
+/node_modules
+package-lock.json
+
+# files including secrets
+# config.js
+
+# ignore mac system files
+.DS_Store

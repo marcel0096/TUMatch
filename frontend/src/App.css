@@ -1,0 +1,33 @@
+html, body {
+    height: 100%; /* Ensure that the html and body elements take up the full height of the viewport */
+    margin: 0; /* Remove default margin */
+    font-family: 'Helvetica Neue', 'Arial', sans-serif; /* Use arial and sans-serif as fallback font */
+  }
+  
+  #main-content {
+    min-height: calc(100vh - 35px); /* 100% of the viewport height minus the height of the header and footer */
+    display: flex;  
+    flex-direction: column; /* Stack the children vertically */
+    padding-top: 40px ;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+
+  }
+
+  .page-content {
+    min-height: calc(100vh - 200px);  /* 100% of the viewport height minus the height of the footer */
+    display: flex; 
+    flex: 1; /* Allows page content to expand and push the footer down */
+    flex-direction: column; /* Stack the children vertically */
+    justify-content: space-between; /* This ensures that the footer can be pushed to the bottom */
+    padding-bottom: 200px; /* Adjust this value based on the actual height of your footer */
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  }
+
+  .footer-text {
+      color: darkslategray;
+      cursor: "pointer";
+      font-size: 0.8rem;
+      font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  }
+
+  

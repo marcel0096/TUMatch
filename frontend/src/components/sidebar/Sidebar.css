@@ -1,0 +1,36 @@
+.sidebar-badge {
+    border-radius: 5.167px;
+    background: #e9ecef;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 3px;
+  
+  }
+  
+  .sidebar-title {
+    color: var(--Theme-Secondary, #6c757d);
+    font-family: "Helvetica Neue";
+    font-size: 15px;
+    font-style: b;
+    font-weight: 700;
+    line-height: 150%; /* 22.5px */
+    text-align: left;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar-text {
+    color: var(--Body-Text-Body-Color, #212529);
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+    text-align: left;
+    padding-bottom: 25px;
+    padding-top: 2px;
+  }

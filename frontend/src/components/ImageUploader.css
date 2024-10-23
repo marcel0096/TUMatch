@@ -1,0 +1,154 @@
+  body {
+    height: 100%;
+    overflow: auto;
+  }
+
+  .custom-form-section {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #fbfbfb;
+    position: relative;
+    text-align: center;
+  }
+
+  .image-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-upload-info {
+    width: 300px;
+    text-align: center;
+  }
+
+  .image-display-area-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border: 2px dashed #ccc;
+    border-radius: 100px;
+    position: relative;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+  }
+
+  .image-display-area-company {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    border: 2px dashed #ccc;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+  }
+
+  .image-display-area-startup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    border: 2px dashed #ccc;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+  }
+
+  .edit-area {
+    width: 200px;
+  }
+
+  .check-button {
+    margin-right: 5px;
+  }
+
+  .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .edit-button {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  .upload-button {
+    margin-bottom: 5px;
+  }
+
+  .trash-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .trash-icon {
+    color: grey;
+    cursor: pointer;
+    margin-right: 5px; 
+  }
+  
+  .remove-icon-container span {
+    font-size: 14px;
+  }
+
+  /* Customize the thumb (the handle) of the slider */
+  /* For Safari and Chrome */
+  .custom-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: lightgray;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -6px; /* Aligns thumb with track */
+  }
+  
+  /* For Firefox */
+  .custom-slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: lightgray;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* For IE and Edge */
+  .custom-slider::-ms-thumb {
+    width: 20px;
+    height: 20px;
+    background: lightgray;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  /* Prevent color change on focus and active */
+  .custom-slider::-webkit-slider-thumb:active,
+  .custom-slider::-webkit-slider-thumb:focus {
+    background: grey;
+  }
+
+  .custom-slider::-moz-range-thumb:active,
+  .custom-slider::-moz-range-thumb:focus {
+    background: grey;
+  }
+
+  .custom-slider::-ms-thumb:active,
+  .custom-slider::-ms-thumb:focus {
+    background: grey;
+  }

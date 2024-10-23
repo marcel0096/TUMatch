@@ -1,0 +1,120 @@
+/* .container {
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
+.my-4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.startup-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  height: 100%;
+}
+
+.startup-card:hover {
+  transform: translateY(-5px);
+}
+
+.startup-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  display: flex;
+  background-color: #e0e0e0;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  height: 100%;
+
+}
+
+.filter-window {
+  position: absolute; /* Make sure the filter window is positioned relative to the parent*/
+  z-index: 1; /* Make sure the filter window is on top of everything*/
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  right: 0;
+  border-radius: 0.25rem;
+}
+
+.basic-multi-select {
+  width: 100%;
+}
+
+.select__control {
+  min-height: 38px;
+}
+
+.main-title {
+  font-size: 3.0rem;
+  font-weight: bold;
+  color: rgb(14, 33, 63);
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.main-title::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  width: 100%;
+  height: 3px;
+  background: rgb(14, 33, 63);;
+  transform: translateX(-50%);
+  animation: slide-in 1s ease-out;
+}
+
+@keyframes slide-in {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
+.main-card{
+   border: 3.5px;
+   border-style: solid;
+   border-color: rgba(11,29,53,0.2);
+}
+
+.equal-height-cols > .col {
+  display: flex;
+  flex: 1 0 auto;
+}
